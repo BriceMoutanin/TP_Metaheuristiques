@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jobshop.encodings.EncodingTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-22T08:33:30" hostname="mbp-de-brice" time="0.026">
+  <properties/>
+  <testcase name="testBasicSolver" classname="jobshop.encodings.EncodingTests" time="0.014"/>
+  <testcase name="testResourceOrder" classname="jobshop.encodings.EncodingTests" time="0.007"/>
+  <testcase name="testJobNumbers" classname="jobshop.encodings.EncodingTests" time="0.004"/>
+  <system-out><![CDATA[Test du BasicSolver
+Test du ResourceOrder
+Machine 0 : (0, 0} ; (1, 1} ; 
+Machine 1 : (1, 0} ; (0, 1} ; 
+Machine 2 : (0, 2} ; (1, 2} ; 
+
+Machine 0 : (0, 0} ; (1, 1} ; 
+Machine 1 : (0, 1} ; (1, 0} ; 
+Machine 2 : (0, 2} ; (1, 2} ; 
+
+Test du JobNumbers
+Date de debut de la tache 0 du job 0 : 0
+Date de debut de la tache 1 du job 0 : 3
+Date de debut de la tache 2 du job 0 : 6
+Date de debut de la tache 0 du job 1 : 0
+Date de debut de la tache 1 du job 1 : 3
+Date de debut de la tache 2 du job 1 : 8
+
+Date de debut de la tache 0 du job 0 : 0
+Date de debut de la tache 1 du job 0 : 3
+Date de debut de la tache 2 du job 0 : 6
+Date de debut de la tache 0 du job 1 : 0
+Date de debut de la tache 1 du job 1 : 3
+Date de debut de la tache 2 du job 1 : 8
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
